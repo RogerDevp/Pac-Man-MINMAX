@@ -1,0 +1,985 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/Power_Pellet.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/Pellet.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Pellets.gd" type="Script" id=4]
+
+[node name="Pellets" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Power_Pellet_0" parent="." instance=ExtResource( 1 )]
+position = Vector2( 164, 52 )
+
+[node name="Power_Pellet_1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 364, 52 )
+
+[node name="Power_Pellet_2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 164, 212 )
+
+[node name="Power_Pellet_3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 364, 212 )
+
+[node name="Pellet_0" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 36 )
+
+[node name="Pellet_1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172, 36 )
+
+[node name="Pellet_2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 36 )
+
+[node name="Pellet_3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 188, 36 )
+
+[node name="Pellet_4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, 36 )
+
+[node name="Pellet_5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 36 )
+
+[node name="Pellet_6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 212, 36 )
+
+[node name="Pellet_7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 220, 36 )
+
+[node name="Pellet_8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 36 )
+
+[node name="Pellet_9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236, 36 )
+
+[node name="Pellet_10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, 36 )
+
+[node name="Pellet_11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 36 )
+
+[node name="Pellet_12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 36 )
+
+[node name="Pellet_13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 284, 36 )
+
+[node name="Pellet_14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292, 36 )
+
+[node name="Pellet_15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 36 )
+
+[node name="Pellet_16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 308, 36 )
+
+[node name="Pellet_17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 316, 36 )
+
+[node name="Pellet_18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 36 )
+
+[node name="Pellet_19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 332, 36 )
+
+[node name="Pellet_20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 340, 36 )
+
+[node name="Pellet_21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 36 )
+
+[node name="Pellet_22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 356, 36 )
+
+[node name="Pellet_23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 36 )
+
+[node name="Pellet_30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 68 )
+
+[node name="Pellet_90" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 60 )
+
+[node name="Pellet_31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172, 68 )
+
+[node name="Pellet_32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 68 )
+
+[node name="Pellet_33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 188, 68 )
+
+[node name="Pellet_34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, 68 )
+
+[node name="Pellet_98" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172, 92 )
+
+[node name="Pellet_99" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 92 )
+
+[node name="Pellet_100" parent="." instance=ExtResource( 2 )]
+position = Vector2( 188, 92 )
+
+[node name="Pellet_101" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, 92 )
+
+[node name="Pellet_35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 68 )
+
+[node name="Pellet_36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 212, 68 )
+
+[node name="Pellet_37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 220, 68 )
+
+[node name="Pellet_38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 68 )
+
+[node name="Pellet_39" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236, 68 )
+
+[node name="Pellet_40" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, 68 )
+
+[node name="Pellet_41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 68 )
+
+[node name="Pellet_154" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236, 92 )
+
+[node name="Pellet_155" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, 92 )
+
+[node name="Pellet_156" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 92 )
+
+[node name="Pellet_157" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 92 )
+
+[node name="Pellet_158" parent="." instance=ExtResource( 2 )]
+position = Vector2( 284, 92 )
+
+[node name="Pellet_159" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292, 92 )
+
+[node name="Pellet_80" parent="." instance=ExtResource( 2 )]
+position = Vector2( 260, 68 )
+
+[node name="Pellet_81" parent="." instance=ExtResource( 2 )]
+position = Vector2( 268, 68 )
+
+[node name="Pellet_42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 68 )
+
+[node name="Pellet_43" parent="." instance=ExtResource( 2 )]
+position = Vector2( 284, 68 )
+
+[node name="Pellet_44" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292, 68 )
+
+[node name="Pellet_45" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 68 )
+
+[node name="Pellet_46" parent="." instance=ExtResource( 2 )]
+position = Vector2( 308, 68 )
+
+[node name="Pellet_47" parent="." instance=ExtResource( 2 )]
+position = Vector2( 316, 68 )
+
+[node name="Pellet_48" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 68 )
+
+[node name="Pellet_49" parent="." instance=ExtResource( 2 )]
+position = Vector2( 332, 68 )
+
+[node name="Pellet_50" parent="." instance=ExtResource( 2 )]
+position = Vector2( 340, 68 )
+
+[node name="Pellet_51" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 68 )
+
+[node name="Pellet_52" parent="." instance=ExtResource( 2 )]
+position = Vector2( 356, 68 )
+
+[node name="Pellet_144" parent="." instance=ExtResource( 2 )]
+position = Vector2( 332, 92 )
+
+[node name="Pellet_145" parent="." instance=ExtResource( 2 )]
+position = Vector2( 340, 92 )
+
+[node name="Pellet_146" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 92 )
+
+[node name="Pellet_147" parent="." instance=ExtResource( 2 )]
+position = Vector2( 356, 92 )
+
+[node name="Pellet_53" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 68 )
+
+[node name="Pellet_91" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 60 )
+
+[node name="Pellet_54" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 260 )
+
+[node name="Pellet_55" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172, 260 )
+
+[node name="Pellet_56" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 260 )
+
+[node name="Pellet_57" parent="." instance=ExtResource( 2 )]
+position = Vector2( 188, 260 )
+
+[node name="Pellet_58" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, 260 )
+
+[node name="Pellet_59" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 260 )
+
+[node name="Pellet_60" parent="." instance=ExtResource( 2 )]
+position = Vector2( 212, 260 )
+
+[node name="Pellet_61" parent="." instance=ExtResource( 2 )]
+position = Vector2( 220, 260 )
+
+[node name="Pellet_62" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 260 )
+
+[node name="Pellet_63" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236, 260 )
+
+[node name="Pellet_64" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, 260 )
+
+[node name="Pellet_65" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 260 )
+
+[node name="Pellet_160" parent="." instance=ExtResource( 2 )]
+position = Vector2( 212, 212 )
+
+[node name="Pellet_161" parent="." instance=ExtResource( 2 )]
+position = Vector2( 220, 212 )
+
+[node name="Pellet_162" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 212 )
+
+[node name="Pellet_163" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236, 212 )
+
+[node name="Pellet_164" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, 212 )
+
+[node name="Pellet_165" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 212 )
+
+[node name="Pellet_180" parent="." instance=ExtResource( 2 )]
+position = Vector2( 212, 188 )
+
+[node name="Pellet_181" parent="." instance=ExtResource( 2 )]
+position = Vector2( 220, 188 )
+
+[node name="Pellet_182" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 188 )
+
+[node name="Pellet_183" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236, 188 )
+
+[node name="Pellet_184" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, 188 )
+
+[node name="Pellet_185" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 188 )
+
+[node name="Pellet_186" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 188 )
+
+[node name="Pellet_187" parent="." instance=ExtResource( 2 )]
+position = Vector2( 284, 188 )
+
+[node name="Pellet_188" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292, 188 )
+
+[node name="Pellet_189" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 188 )
+
+[node name="Pellet_190" parent="." instance=ExtResource( 2 )]
+position = Vector2( 308, 188 )
+
+[node name="Pellet_191" parent="." instance=ExtResource( 2 )]
+position = Vector2( 316, 188 )
+
+[node name="Pellet_192" parent="." instance=ExtResource( 2 )]
+position = Vector2( 332, 188 )
+
+[node name="Pellet_193" parent="." instance=ExtResource( 2 )]
+position = Vector2( 340, 188 )
+
+[node name="Pellet_194" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 188 )
+
+[node name="Pellet_195" parent="." instance=ExtResource( 2 )]
+position = Vector2( 356, 188 )
+
+[node name="Pellet_196" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 188 )
+
+[node name="Pellet_197" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 188 )
+
+[node name="Pellet_198" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172, 188 )
+
+[node name="Pellet_199" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 188 )
+
+[node name="Pellet_236" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172, 212 )
+
+[node name="Pellet_237" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 212 )
+
+[node name="Pellet_200" parent="." instance=ExtResource( 2 )]
+position = Vector2( 188, 188 )
+
+[node name="Pellet_201" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, 188 )
+
+[node name="Pellet_202" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 236 )
+
+[node name="Pellet_203" parent="." instance=ExtResource( 2 )]
+position = Vector2( 172, 236 )
+
+[node name="Pellet_204" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 236 )
+
+[node name="Pellet_205" parent="." instance=ExtResource( 2 )]
+position = Vector2( 188, 236 )
+
+[node name="Pellet_206" parent="." instance=ExtResource( 2 )]
+position = Vector2( 196, 236 )
+
+[node name="Pellet_207" parent="." instance=ExtResource( 2 )]
+position = Vector2( 332, 236 )
+
+[node name="Pellet_208" parent="." instance=ExtResource( 2 )]
+position = Vector2( 340, 236 )
+
+[node name="Pellet_209" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 236 )
+
+[node name="Pellet_210" parent="." instance=ExtResource( 2 )]
+position = Vector2( 356, 236 )
+
+[node name="Pellet_211" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 236 )
+
+[node name="Pellet_166" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 212 )
+
+[node name="Pellet_167" parent="." instance=ExtResource( 2 )]
+position = Vector2( 284, 212 )
+
+[node name="Pellet_168" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292, 212 )
+
+[node name="Pellet_169" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 212 )
+
+[node name="Pellet_172" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 236 )
+
+[node name="Pellet_173" parent="." instance=ExtResource( 2 )]
+position = Vector2( 284, 236 )
+
+[node name="Pellet_174" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292, 236 )
+
+[node name="Pellet_175" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 236 )
+
+[node name="Pellet_176" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 236 )
+
+[node name="Pellet_177" parent="." instance=ExtResource( 2 )]
+position = Vector2( 236, 236 )
+
+[node name="Pellet_178" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, 236 )
+
+[node name="Pellet_179" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 236 )
+
+[node name="Pellet_170" parent="." instance=ExtResource( 2 )]
+position = Vector2( 308, 212 )
+
+[node name="Pellet_171" parent="." instance=ExtResource( 2 )]
+position = Vector2( 316, 212 )
+
+[node name="Pellet_78" parent="." instance=ExtResource( 2 )]
+position = Vector2( 260, 260 )
+
+[node name="Pellet_79" parent="." instance=ExtResource( 2 )]
+position = Vector2( 268, 260 )
+
+[node name="Pellet_66" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 260 )
+
+[node name="Pellet_67" parent="." instance=ExtResource( 2 )]
+position = Vector2( 284, 260 )
+
+[node name="Pellet_68" parent="." instance=ExtResource( 2 )]
+position = Vector2( 292, 260 )
+
+[node name="Pellet_69" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 260 )
+
+[node name="Pellet_70" parent="." instance=ExtResource( 2 )]
+position = Vector2( 308, 260 )
+
+[node name="Pellet_71" parent="." instance=ExtResource( 2 )]
+position = Vector2( 316, 260 )
+
+[node name="Pellet_72" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 260 )
+
+[node name="Pellet_73" parent="." instance=ExtResource( 2 )]
+position = Vector2( 332, 260 )
+
+[node name="Pellet_74" parent="." instance=ExtResource( 2 )]
+position = Vector2( 340, 260 )
+
+[node name="Pellet_75" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 260 )
+
+[node name="Pellet_76" parent="." instance=ExtResource( 2 )]
+position = Vector2( 356, 260 )
+
+[node name="Pellet_77" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 260 )
+
+[node name="Pellet_24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 44 )
+
+[node name="Pellet_25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 44 )
+
+[node name="Pellet_26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 44 )
+
+[node name="Pellet_27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 44 )
+
+[node name="Pellet_28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 44 )
+
+[node name="Pellet_82" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 52 )
+
+[node name="Pellet_92" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 76 )
+
+[node name="Pellet_93" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 84 )
+
+[node name="Pellet_94" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 92 )
+
+[node name="Pellet_95" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 76 )
+
+[node name="Pellet_96" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 84 )
+
+[node name="Pellet_97" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 92 )
+
+[node name="Pellet_83" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 52 )
+
+[node name="Pellet_84" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 52 )
+
+[node name="Pellet_85" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 52 )
+
+[node name="Pellet_86" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 60 )
+
+[node name="Pellet_102" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 76 )
+
+[node name="Pellet_103" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 108 )
+
+[node name="Pellet_104" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 84 )
+
+[node name="Pellet_105" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 92 )
+
+[node name="Pellet_148" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 76 )
+
+[node name="Pellet_149" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 84 )
+
+[node name="Pellet_150" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 92 )
+
+[node name="Pellet_151" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 76 )
+
+[node name="Pellet_152" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 84 )
+
+[node name="Pellet_153" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 92 )
+
+[node name="Pellet_106" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 100 )
+
+[node name="Pellet_107" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 116 )
+
+[node name="Pellet_108" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 148 )
+
+[node name="Pellet_109" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 124 )
+
+[node name="Pellet_110" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 132 )
+
+[node name="Pellet_111" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 140 )
+
+[node name="Pellet_112" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 156 )
+
+[node name="Pellet_113" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 188 )
+
+[node name="Pellet_114" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 164 )
+
+[node name="Pellet_115" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 172 )
+
+[node name="Pellet_116" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 180 )
+
+[node name="Pellet_117" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 196 )
+
+[node name="Pellet_118" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 228 )
+
+[node name="Pellet_122" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 236 )
+
+[node name="Pellet_119" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 204 )
+
+[node name="Pellet_212" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 196 )
+
+[node name="Pellet_213" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 204 )
+
+[node name="Pellet_214" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 196 )
+
+[node name="Pellet_215" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 204 )
+
+[node name="Pellet_216" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 196 )
+
+[node name="Pellet_217" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 204 )
+
+[node name="Pellet_218" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 196 )
+
+[node name="Pellet_219" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 204 )
+
+[node name="Pellet_220" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 212 )
+
+[node name="Pellet_239" parent="." instance=ExtResource( 2 )]
+position = Vector2( 356, 212 )
+
+[node name="Pellet_221" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 220 )
+
+[node name="Pellet_238" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348, 228 )
+
+[node name="Pellet_222" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 220 )
+
+[node name="Pellet_223" parent="." instance=ExtResource( 2 )]
+position = Vector2( 300, 228 )
+
+[node name="Pellet_224" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 220 )
+
+[node name="Pellet_225" parent="." instance=ExtResource( 2 )]
+position = Vector2( 228, 228 )
+
+[node name="Pellet_226" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 244 )
+
+[node name="Pellet_227" parent="." instance=ExtResource( 2 )]
+position = Vector2( 164, 252 )
+
+[node name="Pellet_228" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 244 )
+
+[node name="Pellet_229" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 252 )
+
+[node name="Pellet_230" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 244 )
+
+[node name="Pellet_231" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 252 )
+
+[node name="Pellet_232" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 244 )
+
+[node name="Pellet_233" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 252 )
+
+[node name="Pellet_234" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 220 )
+
+[node name="Pellet_235" parent="." instance=ExtResource( 2 )]
+position = Vector2( 180, 228 )
+
+[node name="Pellet_120" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 212 )
+
+[node name="Pellet_121" parent="." instance=ExtResource( 2 )]
+position = Vector2( 204, 220 )
+
+[node name="Pellet_123" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 76 )
+
+[node name="Pellet_124" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 108 )
+
+[node name="Pellet_125" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 84 )
+
+[node name="Pellet_126" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 92 )
+
+[node name="Pellet_127" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 100 )
+
+[node name="Pellet_128" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 116 )
+
+[node name="Pellet_129" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 148 )
+
+[node name="Pellet_130" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 124 )
+
+[node name="Pellet_131" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 132 )
+
+[node name="Pellet_132" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 140 )
+
+[node name="Pellet_133" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 156 )
+
+[node name="Pellet_134" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 188 )
+
+[node name="Pellet_135" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 164 )
+
+[node name="Pellet_136" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 172 )
+
+[node name="Pellet_137" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 180 )
+
+[node name="Pellet_138" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 196 )
+
+[node name="Pellet_139" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 228 )
+
+[node name="Pellet_140" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 236 )
+
+[node name="Pellet_141" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 204 )
+
+[node name="Pellet_142" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 212 )
+
+[node name="Pellet_143" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 220 )
+
+[node name="Pellet_87" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 60 )
+
+[node name="Pellet_88" parent="." instance=ExtResource( 2 )]
+position = Vector2( 276, 60 )
+
+[node name="Pellet_89" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 60 )
+
+[node name="Pellet_29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 364, 44 )
+
+[connection signal="pellet_eaten" from="Power_Pellet_0" to="." method="_on_Power_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Power_Pellet_1" to="." method="_on_Power_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Power_Pellet_2" to="." method="_on_Power_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Power_Pellet_3" to="." method="_on_Power_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_0" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_1" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_2" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_3" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_4" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_5" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_6" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_7" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_8" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_9" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_10" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_11" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_12" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_13" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_14" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_15" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_16" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_17" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_18" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_19" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_20" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_21" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_22" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_23" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_30" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_90" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_31" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_32" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_33" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_34" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_98" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_99" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_100" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_101" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_35" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_36" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_37" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_38" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_39" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_40" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_41" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_154" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_155" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_156" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_157" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_158" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_159" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_80" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_81" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_42" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_43" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_44" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_45" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_46" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_47" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_48" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_49" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_50" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_51" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_52" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_144" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_145" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_146" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_147" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_53" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_91" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_54" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_55" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_56" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_57" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_58" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_59" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_60" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_61" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_62" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_63" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_64" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_65" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_160" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_161" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_162" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_163" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_164" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_165" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_180" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_181" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_182" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_183" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_184" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_185" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_186" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_187" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_188" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_189" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_190" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_191" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_192" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_193" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_194" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_195" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_196" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_197" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_198" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_199" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_236" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_237" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_200" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_201" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_202" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_203" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_204" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_205" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_206" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_207" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_208" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_209" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_210" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_211" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_166" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_167" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_168" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_169" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_172" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_173" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_174" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_175" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_176" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_177" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_178" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_179" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_170" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_171" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_78" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_79" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_66" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_67" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_68" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_69" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_70" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_71" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_72" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_73" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_74" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_75" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_76" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_77" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_24" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_25" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_26" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_27" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_28" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_82" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_92" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_93" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_94" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_95" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_96" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_97" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_83" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_84" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_85" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_86" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_102" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_103" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_104" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_105" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_148" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_149" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_150" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_151" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_152" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_153" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_106" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_107" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_108" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_109" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_110" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_111" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_112" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_113" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_114" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_115" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_116" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_117" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_118" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_122" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_119" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_212" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_213" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_214" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_215" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_216" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_217" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_218" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_219" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_220" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_239" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_221" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_238" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_222" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_223" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_224" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_225" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_226" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_227" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_228" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_229" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_230" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_231" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_232" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_233" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_234" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_235" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_120" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_121" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_123" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_124" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_125" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_126" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_127" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_128" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_129" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_130" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_131" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_132" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_133" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_134" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_135" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_136" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_137" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_138" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_139" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_140" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_141" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_142" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_143" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_87" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_88" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_89" to="." method="_on_Pellet_eaten"]
+[connection signal="pellet_eaten" from="Pellet_29" to="." method="_on_Pellet_eaten"]

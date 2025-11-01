@@ -1,0 +1,194 @@
+[gd_scene load_steps=21 format=3 uid="uid://jgs7bi8xkiio"]
+
+[ext_resource type="Texture2D" uid="uid://1wrap8m7pjc6" path="res://Art/Ghosts.png" id="1"]
+[ext_resource type="Script" path="res://Assets/Ghost.gd" id="2"]
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("1")
+region = Rect2(96, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("1")
+region = Rect2(64, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource("1")
+region = Rect2(80, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("1")
+region = Rect2(112, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource("1")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="19"]
+atlas = ExtResource("1")
+region = Rect2(64, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="20"]
+atlas = ExtResource("1")
+region = Rect2(80, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="25"]
+atlas = ExtResource("1")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="26"]
+atlas = ExtResource("1")
+region = Rect2(16, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="23"]
+atlas = ExtResource("1")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="24"]
+atlas = ExtResource("1")
+region = Rect2(48, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="21"]
+atlas = ExtResource("1")
+region = Rect2(96, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="22"]
+atlas = ExtResource("1")
+region = Rect2(112, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource("1")
+region = Rect2(0, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource("1")
+region = Rect2(16, 64, 16, 16)
+
+[sub_resource type="SpriteFrames" id="16"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("3")
+}],
+"loop": true,
+"name": &"eye_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("8")
+}],
+"loop": true,
+"name": &"eye_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("15")
+}],
+"loop": true,
+"name": &"eye_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("2")
+}],
+"loop": true,
+"name": &"eye_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("18")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("19")
+}, {
+"duration": 1.0,
+"texture": SubResource("20")
+}],
+"loop": true,
+"name": &"move_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("25")
+}, {
+"duration": 1.0,
+"texture": SubResource("26")
+}],
+"loop": true,
+"name": &"move_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("23")
+}, {
+"duration": 1.0,
+"texture": SubResource("24")
+}],
+"loop": true,
+"name": &"move_right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("21")
+}, {
+"duration": 1.0,
+"texture": SubResource("22")
+}],
+"loop": true,
+"name": &"move_up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("9")
+}, {
+"duration": 1.0,
+"texture": SubResource("10")
+}],
+"loop": true,
+"name": &"scared",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="17"]
+radius = 6.0
+
+[sub_resource type="CircleShape2D" id="27"]
+radius = 6.0
+
+[node name="Blue" type="CharacterBody2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("2")
+speed = 150
+color = "Blue"
+
+[node name="Animation" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("16")
+animation = &"idle"
+frame_progress = 0.797714
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.99, 0.99)
+shape = SubResource("17")
+
+[node name="Area3D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area3D"]
+scale = Vector2(0.99, 0.99)
+shape = SubResource("27")
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_Area_body_entered"]
